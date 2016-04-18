@@ -1,3 +1,5 @@
+
+
 var fs = require("fs");
 var readFile = fs.readFileSync(process.argv[2]);
 var lines = readFile.toString().split("\n").length - 1;
